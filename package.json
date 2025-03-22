@@ -1,6 +1,6 @@
 {
-  "name": "cv-template",
-  "description": "The Curriculum Vitae Template",
+  "name": "cv",
+  "description": "Curriculum Vitae",
   "scripts": {
     "build": "node src/build.js",
     "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
@@ -9,20 +9,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sneas/cv-project.git"
-  },
-  "keywords": [
-    "cv",
-    "resume"
-  ],
-  "author": "Dmytro Snisarenko <dmytro@sneas.io>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sneas/cv-project/issues"
-  },
-  "homepage": "https://github.com/sneas/cv-project#readme",
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
     "dayjs": "^1.11.4",
