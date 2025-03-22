@@ -139,11 +139,12 @@ h1, h2, h3, h4 {
     body, .list-group-item {
       background-color: var(--bg-color);
       color: var(--text-color);
-      transition: background-color 0.3s, color 0.3s;
+      transition: background-color 0.5s, color 0.5s;
     }
 
     h1, h2, h3, h4 {
       color: var(--heading-color);
+      transition: color 0.5s;
     }
 
     .switch {
@@ -167,7 +168,7 @@ h1, h2, h3, h4 {
       right: 0;
       bottom: 0;
       background-color: #ccc;
-      transition: 0.3s;
+      transition: 0.5s;
       border-radius: 25px;
     }
 
