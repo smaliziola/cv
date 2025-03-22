@@ -11,7 +11,7 @@ module.exports = {
   positions: [
     {
       company: 'Hootsuite',
-      logo: 'logos/hootsuite.png',
+      logo: 'logos/hootsuite.jpeg',
       link: 'https://www.linkedin.com/company/hootsuite/',
       role: 'Software Developer',
       period: 'Feb 2025 – Present',
@@ -23,7 +23,7 @@ Development of new features and maintenance of the backend system of Talkwalker,
     },
     {
       company: 'Alpian',
-      logo: 'logos/alpian.png',
+      logo: 'logos/alpian.jpeg',
       link: 'https://www.linkedin.com/company/alpian/',
       role: 'Software Engineer',
       period: 'Sep 2022 – Jan 2025',
@@ -47,7 +47,7 @@ Some key contributions:
     },
     {
       company: 'Konica Minolta – Digital Services R&D',
-      logo: 'logos/konica-minolta.png',
+      logo: 'logos/konicaminolta.jpeg',
       link: 'https://www.linkedin.com/company/konica-minolta-business-solutions-europe-gmbh/',
       role: 'Software Developer',
       period: 'Aug 2021 – Sep 2022',
@@ -70,7 +70,7 @@ Key responsibilities:
     },
     {
       company: 'Altran',
-      logo: 'logos/altran.png',
+      logo: 'logos/altran.jpeg',
       link: 'https://www.linkedin.com/company/altran/',
       role: 'Software Engineer',
       period: 'Mar 2019 – Aug 2021',
@@ -90,7 +90,7 @@ Software Development Engineer supporting QA activities within a multicultural an
     },
     {
       company: 'Alten',
-      logo: 'logos/alten.png',
+      logo: 'logos/alten.jpeg',
       link: 'https://www.linkedin.com/company/alten/',
       role: 'Software Developer',
       period: 'Feb 2017 – Mar 2019',
@@ -108,7 +108,7 @@ One of my primary responsibilities was integrating with the third-party APIs of 
   educations: [
       {
         school: 'Università Telematica Internazionale UNINETTUNO',
-        logo: 'logos/uninettuno.png',
+        logo: 'logos/uninettuno.jpeg',
         link: 'https://www.linkedin.com/school/uninettuno/',
         degree: 'Master\'s degree, Computer Engineering',
         period: '2020 – 2023',
@@ -119,7 +119,7 @@ One of my primary responsibilities was integrating with the third-party APIs of 
       },
       {
         school: 'University of Rome Tor Vergata',
-        logo: 'logos/tor-vergata.png',
+        logo: 'logos/torvergata.jpeg',
         link: 'https://www.linkedin.com/school/unitorvergata/',
         degree: 'Bachelor\'s degree, Computer Science',
         period: '2013 – 2017',
@@ -185,11 +185,11 @@ One of my primary responsibilities was integrating with the third-party APIs of 
   ],
   languages: [
     {
-      language: 'Italian',
+      language: '🇮🇹 Italian',
       proficiency: 'Native proficiency'
     },
     {
-      language: 'English',
+      language: '🇬🇧 English',
       proficiency: 'Professional working proficiency'
     }
   ]
