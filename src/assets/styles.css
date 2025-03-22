@@ -1,11 +1,11 @@
 :root {
-    --bs-font-sans-serif: Roboto, sans-serif;
+    --bs-font-sans-serif: Montserrat, sans-serif;
     --bs-body-font-weight: 400;
     --bs-body-color: #858585;
     --bs-body-color-rgb: 133, 133, 133;
     --light-color: #D9D9D9;
     --dark-color: #7a7a7a;
-    --bs-body-font-size: 1.2rem;
+    --bs-body-font-size: 1.1rem;
 }
 
 a {
@@ -61,6 +61,20 @@ h1, h2, h3, h4 {
     .text-print-right {
         text-align: right;
     }
+
+    .fs-5,
+    .fs-6 {
+        font-size: 0.7rem !important;
+    }
+
+    .col-print-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+
+    .grey {
+        color: #D9D9D9;
+    }
 }
 
 @media not print {
@@ -83,6 +97,10 @@ h1, h2, h3, h4 {
 
     strong {
         font-weight: 500;
+    }
+
+    .grey {
+        color: #7a7a7a;
     }
 }
 
@@ -132,29 +150,4 @@ h1, h2, h3, h4 {
 @page {
     size: auto;
     margin: 10mm;
-}
-
-.skills {
-    position: relative;
-    display: inline-block;
-    font-size: 1.2rem;
-}
-
-.skills::after {
-    display: block;
-    content: '•••••';
-    color: var(--light-color);
-}
-
-.skills-bar {
-    position: absolute;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-}
-
-.skills-bar::after {
-    display: block;
-    content: '•••••';
-    color: var(--bs-primary);
 }
