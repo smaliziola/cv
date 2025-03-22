@@ -5,7 +5,9 @@ module.exports = {
     'Residence': `<a href="https://www.google.com/maps/place/Province+of+Frosinone/@41.627771,13.1801257,10z/data=!3m1!4b1!4m6!3m5!1s0x132552e4989f37d1:0x3094f9ab2388120!8m2!3d41.6576528!4d13.6362715!16zL20vMDUyZHQ1?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D"><i class="fa fa-home fact-icon"></i>Frosinone, Italy</a>`,
     'LinkedIn': `<a href="https://www.linkedin.com/in/simone-maliziola/"><i class="fa-brands fa-linkedin fact-icon"></i>simone-maliziola</a>`,
     'GitHub': `<a href="https://github.com/Sim0ne42"><i class="fa-brands fa-github fact-icon"></i>Sim0ne42</a>`,
-    'LeetCode': `<a href="https://leetcode.com/u/smaliziola/"><i class="fa fa-code fact-icon"></i>smaliziola</a>`
+    'LeetCode': `<a href="https://leetcode.com/u/smaliziola/"><i class="fa fa-code fact-icon"></i>smaliziola</a>`,
+    'Email': `<a href="mailto:email@example.org"><i class="fa fa-envelope fact-icon"></i>email@example.org</a>`,
+    'Phone': `<a href="tel:+391234567890"><i class="fa fa-phone fact-icon"></i>+39 1234567890</a>`
   },
   skills: ['Back-End Web Development','Object-Oriented Programming','Functional Programming','Test-Driven Development','Cloud-Native Applications','Microservices','Software Design Patterns','Code Refactoring','Software Development Life Cycle','Software Architectural Design','Agile Methodologies','Problem Solving'],
   positions: [
