@@ -35,8 +35,13 @@
                 </div>
             </div>
             <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
-                <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
+                <img id="me" src="photo.jpg" class="rounded-circle img-fluid rotating-image" alt="Personal photo">
             </div>
+            <script>
+                document.getElementById("me").addEventListener("click", function() {
+                    this.classList.toggle("rotate");
+                });
+            </script>
             <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -133,7 +138,7 @@
         <h2 class="mb-4">Professional Experience</h2>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/hootsuite.png" class="img-fluid" alt="Logo">
+                <img src="logos/hootsuite.png" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">Hootsuite</h3>
@@ -166,7 +171,7 @@
         </div>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/alpian.png" class="img-fluid" alt="Logo">
+                <img src="logos/alpian.png" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">Alpian</h3>
@@ -229,7 +234,7 @@
         </div>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/konica-minolta.png" class="img-fluid" alt="Logo">
+                <img src="logos/konica-minolta.png" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">Konica Minolta – Digital Services R&amp;D</h3>
@@ -291,7 +296,7 @@
         </div>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/altran.png" class="img-fluid" alt="Logo">
+                <img src="logos/altran.png" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">Altran</h3>
@@ -346,7 +351,7 @@
         </div>
         <div class="row d-block d-md-flex">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/alten.png" class="img-fluid" alt="Logo">
+                <img src="logos/alten.png" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">Alten</h3>
@@ -386,7 +391,7 @@
         <h2 class="mb-4">Education</h2>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/uninettuno.png" class="img-fluid" alt="Logo">
+                <img src="logos/uninettuno.png" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">Università Telematica Internazionale UNINETTUNO</h3>
@@ -411,7 +416,7 @@
         </div>
         <div class="row d-block d-md-flex">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/tor-vergata.png" class="img-fluid" alt="Logo">
+                <img src="logos/tor-vergata.png" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">University of Rome Tor Vergata</h3>
