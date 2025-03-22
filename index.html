@@ -32,16 +32,17 @@
                                                                                         class="text-nowrap"><i
                             class="fab fa-github" aria-hidden="true"></i>https://smaliziola.github.io/cv</a></span>
                     </p>
+                    <p class="switch">
+                        <label>
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider"></span>
+                        </label>
+                    </p>
                 </div>
             </div>
             <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
                 <img id="me" src="photo.jpg" class="rounded-circle img-fluid rotating-image" alt="Personal photo">
             </div>
-            <script>
-                document.getElementById("me").addEventListener("click", function() {
-                    this.classList.toggle("rotate");
-                });
-            </script>
             <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -63,6 +64,23 @@
                 </ul>
             </div>
         </div>
+        <script>
+            document.getElementById("me").addEventListener("click", function() {
+                this.classList.toggle("rotate");
+            });
+
+            const toggleSwitch = document.getElementById('theme-toggle');
+
+            toggleSwitch.addEventListener('change', () => {
+              document.body.classList.toggle('dark-mode');
+              localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            });
+
+            if (localStorage.getItem('theme') === 'dark') {
+              document.body.classList.add('dark-mode');
+              toggleSwitch.checked = true;
+            }
+        </script>
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
@@ -130,10 +148,10 @@
         <h2 class="mb-4">Professional Experience</h2>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/hootsuite.png" class="img-fluid bouncing-image" alt="Logo">
+                <a href="https://www.linkedin.com/company/hootsuite/"><img src="logos/hootsuite.png" class="img-fluid bouncing-image" alt="Logo"></a>
             </div>
             <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">Hootsuite</h3>
+                <h3 class="fs-4 fw-bold">Hootsuite</h3>
                 <h5 class="fs-5 fw-normal grey">Software Developer</h5>
                 <h5 class="fs-6 fw-normal grey">Feb 2025 – Present</h5>
                 <h5 class="fs-6 fw-normal grey">Rome, Latium, Italy • Remote</h5>
@@ -163,10 +181,10 @@
         </div>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/alpian.png" class="img-fluid bouncing-image" alt="Logo">
+                <a href="https://www.linkedin.com/company/alpian/"><img src="logos/alpian.png" class="img-fluid bouncing-image" alt="Logo"></a>
             </div>
             <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">Alpian</h3>
+                <h3 class="fs-4 fw-bold">Alpian</h3>
                 <h5 class="fs-5 fw-normal grey">Software Engineer</h5>
                 <h5 class="fs-6 fw-normal grey">Sep 2022 – Jan 2025</h5>
                 <h5 class="fs-6 fw-normal grey">Rome, Latium, Italy • Remote</h5>
@@ -192,6 +210,7 @@
                     <span class="badge text-body border border-1">gRPC</span>
                     <span class="badge text-body border border-1">Protocol Buffers</span>
                     <span class="badge text-body border border-1">REST APIs</span>
+                    <span class="badge text-body border border-1">SOAP</span>
                     <span class="badge text-body border border-1">Liquibase</span>
                     <span class="badge text-body border border-1">Hibernate</span>
                     <span class="badge text-body border border-1">PostgreSQL</span>
@@ -226,10 +245,10 @@
         </div>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/konica-minolta.png" class="img-fluid bouncing-image" alt="Logo">
+                <a href="https://www.linkedin.com/company/konica-minolta-business-solutions-europe-gmbh/"><img src="logos/konica-minolta.png" class="img-fluid bouncing-image" alt="Logo"></a>
             </div>
             <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">Konica Minolta – Digital Services R&amp;D</h3>
+                <h3 class="fs-4 fw-bold">Konica Minolta – Digital Services R&amp;D</h3>
                 <h5 class="fs-5 fw-normal grey">Software Developer</h5>
                 <h5 class="fs-6 fw-normal grey">Aug 2021 – Sep 2022</h5>
                 <h5 class="fs-6 fw-normal grey">Rome, Latium, Italy • Hybrid</h5>
@@ -288,10 +307,10 @@
         </div>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/altran.png" class="img-fluid bouncing-image" alt="Logo">
+                <a href="https://www.linkedin.com/company/altran/"><img src="logos/altran.png" class="img-fluid bouncing-image" alt="Logo"></a>
             </div>
             <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">Altran</h3>
+                <h3 class="fs-4 fw-bold">Altran</h3>
                 <h5 class="fs-5 fw-normal grey">Software Engineer</h5>
                 <h5 class="fs-6 fw-normal grey">Mar 2019 – Aug 2021</h5>
                 <h5 class="fs-6 fw-normal grey">Rome, Latium, Italy • Hybrid</h5>
@@ -316,11 +335,12 @@
                     <span class="badge text-body border border-1">Node.js</span>
                     <span class="badge text-body border border-1">GraphQL</span>
                     <span class="badge text-body border border-1">REST APIs</span>
+                    <span class="badge text-body border border-1">SOAP</span>
                     <span class="badge text-body border border-1">Apache Kafka</span>
                     <span class="badge text-body border border-1">NoSQL</span>
                     <span class="badge text-body border border-1">Redis</span>
                     <span class="badge text-body border border-1">Cassandra</span>
-                    <span class="badge text-body border border-1">Amazon Dynamodb</span>
+                    <span class="badge text-body border border-1">DynamoDB</span>
                     <span class="badge text-body border border-1">Git</span>
                     <span class="badge text-body border border-1">GitHub</span>
                     <span class="badge text-body border border-1">Bitbucket</span>
@@ -343,34 +363,41 @@
         </div>
         <div class="row d-block d-md-flex">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/alten.png" class="img-fluid bouncing-image" alt="Logo">
+                <a href="https://www.linkedin.com/company/alten/"><img src="logos/alten.png" class="img-fluid bouncing-image" alt="Logo"></a>
             </div>
             <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">Alten</h3>
+                <h3 class="fs-4 fw-bold">Alten</h3>
                 <h5 class="fs-5 fw-normal grey">Software Developer</h5>
                 <h5 class="fs-6 fw-normal grey">Feb 2017 – Mar 2019</h5>
                 <h5 class="fs-6 fw-normal grey">Rome, Latium, Italy • On-site</h5>
                 <div><p>IT Consultant for GVC Holdings (now known as Entain).</p>
 
-<p>Responsible for the analysis, design, and development of an online bingo platform currently used by leading gambling websites in Italy. The system features a REST-based microservices architecture, leveraging ActiveMQ for messaging, an API Gateway for external access, Docker containers, and Kubernetes for orchestration.</p></div>
+<p>Responsible for the analysis, design, and development of an online bingo platform, currently used by leading gambling websites in Italy. The system was built on a REST-based microservices architecture, utilising ActiveMQ for messaging, an API Gateway for external access, and Docker containers orchestrated with Kubernetes.</p>
+
+<p>One of my primary responsibilities was integrating with the third-party APIs of AAMS (Amministrazione Autonoma dei Monopoli di Stato), a government agency responsible for regulating gambling, while also defining fallback strategies.</p></div>
                 <p>
                     <span class="badge text-body border border-1">Java</span>
                     <span class="badge text-body border border-1">Spring Boot</span>
+                    <span class="badge text-body border border-1">Spring Web MVC</span>
                     <span class="badge text-body border border-1">JUnit</span>
                     <span class="badge text-body border border-1">Maven</span>
                     <span class="badge text-body border border-1">JavaScript</span>
+                    <span class="badge text-body border border-1">AngularJS</span>
                     <span class="badge text-body border border-1">Angular</span>
                     <span class="badge text-body border border-1">REST APIs</span>
                     <span class="badge text-body border border-1">ActiveMQ</span>
                     <span class="badge text-body border border-1">Apache Camel</span>
+                    <span class="badge text-body border border-1">Apache Tomcat</span>
                     <span class="badge text-body border border-1">Hibernate</span>
                     <span class="badge text-body border border-1">Oracle Database</span>
                     <span class="badge text-body border border-1">MySQL</span>
+                    <span class="badge text-body border border-1">Mercurial</span>
                     <span class="badge text-body border border-1">Git</span>
                     <span class="badge text-body border border-1">GitHub</span>
                     <span class="badge text-body border border-1">Docker</span>
                     <span class="badge text-body border border-1">Kubernetes</span>
                     <span class="badge text-body border border-1">Jenkins</span>
+                    <span class="badge text-body border border-1">GitLab</span>
                     <span class="badge text-body border border-1">Artifactory</span>
                     <span class="badge text-body border border-1">Sonarqube</span>
                     <span class="badge text-body border border-1">Fortify Software Security Center</span>
@@ -383,10 +410,10 @@
         <h2 class="mb-4">Education</h2>
         <div class="row d-block d-md-flex mb-5">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/uninettuno.png" class="img-fluid bouncing-image" alt="Logo">
+                <a href="https://www.linkedin.com/school/uninettuno/"><img src="logos/uninettuno.png" class="img-fluid bouncing-image" alt="Logo"></a>
             </div>
             <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">Università Telematica Internazionale UNINETTUNO</h3>
+                <h3 class="fs-4 fw-bold">Università Telematica Internazionale UNINETTUNO</h3>
                 <h5 class="fs-5 fw-normal grey">Master&#x27;s degree, Computer Engineering</h5>
                 <h5 class="fs-6 fw-normal grey">2020 – 2023</h5>
                 <p><b>Grade:</b> 110/110 cum laude</p>
@@ -408,10 +435,10 @@
         </div>
         <div class="row d-block d-md-flex">
             <div class="col-md-1 d-none d-md-block">
-                <img src="logos/tor-vergata.png" class="img-fluid bouncing-image" alt="Logo">
+                <a href="https://www.linkedin.com/school/unitorvergata/"><img src="logos/tor-vergata.png" class="img-fluid bouncing-image" alt="Logo"></a>
             </div>
             <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">University of Rome Tor Vergata</h3>
+                <h3 class="fs-4 fw-bold">University of Rome Tor Vergata</h3>
                 <h5 class="fs-5 fw-normal grey">Bachelor&#x27;s degree, Computer Science</h5>
                 <h5 class="fs-6 fw-normal grey">2013 – 2017</h5>
                 <p><b>Grade:</b> 110/110 cum laude</p>
