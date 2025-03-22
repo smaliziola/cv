@@ -10,23 +10,24 @@ module.exports = {
   skills: ['Back-End Web Development','Object-Oriented Programming','Functional Programming','Test-Driven Development','Cloud-Native Applications','Microservices','Software Design Patterns','Code Refactoring','Software Development Life Cycle','Software Architectural Design','Agile Methodologies','Problem Solving'],
   positions: [
     {
-      title: 'Hootsuite',
-      role: 'Software Developer',
+      company: 'Hootsuite',
       logo: 'logos/hootsuite.png',
+      link: 'https://www.linkedin.com/company/hootsuite/',
+      role: 'Software Developer',
       period: 'Feb 2025 – Present',
       location: 'Rome, Latium, Italy • Remote',
-      skills: ['Java','JavaScript','Gradle','JUnit','gRPC','Protocol Buffers','NoSQL','Cassandra','Apache Kafka','Jenkins','Elastic Stack (ELK)','Git','Gitlab','Sonarqube','Grafana','Graphite','Jira','Confluence','Slack'],
       contents: `
 Development of new features and maintenance of the backend system of Talkwalker, acquired by Hootsuite.
-`
+`,
+      skills: ['Java','JavaScript','Gradle','JUnit','gRPC','Protocol Buffers','NoSQL','Cassandra','Apache Kafka','Jenkins','Elastic Stack (ELK)','Git','Gitlab','Sonarqube','Grafana','Graphite','Jira','Confluence','Slack']
     },
     {
-      title: 'Alpian',
-      role: 'Software Engineer',
+      company: 'Alpian',
       logo: 'logos/alpian.png',
+      link: 'https://www.linkedin.com/company/alpian/',
+      role: 'Software Engineer',
       period: 'Sep 2022 – Jan 2025',
       location: 'Rome, Latium, Italy • Remote',
-      skills: ['Java','Kotlin','Go','Python','Spring Boot','Quarkus','Maven','JUnit','Mockito','Testcontainers','JMeter','gRPC','Protocol Buffers','REST APIs','Liquibase','Hibernate','PostgreSQL','MongoDB','Apache Kafka','Apache Spark','Docker','Kubernetes','Helm Charts','OpenShift','Argo CD','Google Cloud Platform (GCP)','Jenkins','Artifactory','Elastic Stack (ELK)','Splunk','Keycloak','Istio','Git','GitHub','Bitbucket','Backstage','Sonar','Sonarqube','Grafana','Prometheus','Jira','Confluence','Slack'],
       contents: `
 As a Software Engineer, I was responsible for participating in the entire systems lifecycle, from the initial technical analysis to production release. This included designing the architecture of new digital solutions in collaboration with software architects, developing software from scratch, and maintaining or refactoring existing code to ensure consistently high-quality standards.
 
@@ -41,15 +42,16 @@ Some key contributions:
 * Developed and maintained a distributed system that processes sensitive customer data on a scheduled basis.
 * Proposed and implemented efficient solutions to reduce technical debt and improve code maintainability.
 * Consistently met tight deadlines while ensuring high software quality and adherence to best practices.
-`
+`,
+      skills: ['Java','Kotlin','Go','Python','Spring Boot','Quarkus','Maven','JUnit','Mockito','Testcontainers','JMeter','gRPC','Protocol Buffers','REST APIs','SOAP','Liquibase','Hibernate','PostgreSQL','MongoDB','Apache Kafka','Apache Spark','Docker','Kubernetes','Helm Charts','OpenShift','Argo CD','Google Cloud Platform (GCP)','Jenkins','Artifactory','Elastic Stack (ELK)','Splunk','Keycloak','Istio','Git','GitHub','Bitbucket','Backstage','Sonar','Sonarqube','Grafana','Prometheus','Jira','Confluence','Slack']
     },
     {
-      title: 'Konica Minolta – Digital Services R&D',
-      role: 'Software Developer',
+      company: 'Konica Minolta – Digital Services R&D',
       logo: 'logos/konica-minolta.png',
+      link: 'https://www.linkedin.com/company/konica-minolta-business-solutions-europe-gmbh/',
+      role: 'Software Developer',
       period: 'Aug 2021 – Sep 2022',
       location: 'Rome, Latium, Italy • Hybrid',
-      skills: ['Java','Quarkus','Spring Boot','JUnit','Mockito','REST-assured','Postman','Newman','JMeter','Maven','Go','Python','JavaScript','Electron','Vue.js','Node.js','REST APIs','RabbitMQ','Liquibase','Hibernate','PostgreSQL','NoSQL','SPARQL','GraphDB','Docker','Kubernetes','Helm Charts','Argo CD','Ansible','Elastic Stack (ELK)','Microsoft Azure','OpenStack','Git','GitHub','Bitbucket','Jenkins','Sonarqube','Grafana','Prometheus','Jaeger','Keycloak','Jira','Confluence','Slack'],
       contents: `
 Software Developer in the Cognitive Service Program (CSP), contributing to international R&D projects within Agile Scrum teams. The primary objective was to link and process structured and unstructured data from diverse sources, delivering meaningful decision support for end users, reducing workplace complexity, improving efficiency, and promoting new digital workflows.
 
@@ -63,15 +65,16 @@ Key responsibilities:
 * Updating documentation and automating manual procedures.
 * Conducting code reviews for team members and managing technical tasks in the backlog.
 * Participating in Sprint refinement and planning alongside the team.
-`
+`,
+      skills: ['Java','Quarkus','Spring Boot','JUnit','Mockito','REST-assured','Postman','Newman','JMeter','Maven','Go','Python','JavaScript','Electron','Vue.js','Node.js','REST APIs','RabbitMQ','Liquibase','Hibernate','PostgreSQL','NoSQL','SPARQL','GraphDB','Docker','Kubernetes','Helm Charts','Argo CD','Ansible','Elastic Stack (ELK)','Microsoft Azure','OpenStack','Git','GitHub','Bitbucket','Jenkins','Sonarqube','Grafana','Prometheus','Jaeger','Keycloak','Jira','Confluence','Slack']
     },
     {
-      title: 'Altran',
-      role: 'Software Engineer',
+      company: 'Altran',
       logo: 'logos/altran.png',
+      link: 'https://www.linkedin.com/company/altran/',
+      role: 'Software Engineer',
       period: 'Mar 2019 – Aug 2021',
       location: 'Rome, Latium, Italy • Hybrid',
-      skills: ['Java','Kotlin','Spring Boot','JUnit','TestNG','Mockito','EasyMock','Cucumber','Puppeteer','Maven','Python','JavaScript','Node.js','GraphQL','REST APIs','Apache Kafka','NoSQL','Redis','Cassandra','Amazon Dynamodb','Git','GitHub','Bitbucket','Docker','Kubernetes','Amazon Web Services','Confluence','Jira','Grafana','Graphite','Splunk','Jenkins','Bamboo','Spinnaker','Artifactory','Fortify Software Security Center','Slack'],
       contents: `
 IT Consultant at Altran (now known as Capgemini Engineering) for Hotels.com (Expedia Group).
 
@@ -82,42 +85,48 @@ Software Development Engineer supporting QA activities within a multicultural an
 * Managing and eliminating legacy code while reducing technical debt through dedicated tech health days.
 * Monitoring deployments managed by the CI/CD pipeline.
 * Participating in code review processes, team planning, and backlog management.
-`
+`,
+      skills: ['Java','Kotlin','Spring Boot','JUnit','TestNG','Mockito','EasyMock','Cucumber','Puppeteer','Maven','Python','JavaScript','Node.js','GraphQL','REST APIs','SOAP','Apache Kafka','NoSQL','Redis','Cassandra','DynamoDB','Git','GitHub','Bitbucket','Docker','Kubernetes','Amazon Web Services','Confluence','Jira','Grafana','Graphite','Splunk','Jenkins','Bamboo','Spinnaker','Artifactory','Fortify Software Security Center','Slack']
     },
     {
-      title: 'Alten',
-      role: 'Software Developer',
+      company: 'Alten',
       logo: 'logos/alten.png',
+      link: 'https://www.linkedin.com/company/alten/',
+      role: 'Software Developer',
       period: 'Feb 2017 – Mar 2019',
       location: 'Rome, Latium, Italy • On-site',
-      skills: ['Java','Spring Boot','JUnit','Maven','JavaScript','Angular','REST APIs','ActiveMQ','Apache Camel','Hibernate','Oracle Database','MySQL','Git','GitHub','Docker','Kubernetes','Jenkins','Artifactory','Sonarqube','Fortify Software Security Center'],
       contents: `
 IT Consultant for GVC Holdings (now known as Entain).
 
-Responsible for the analysis, design, and development of an online bingo platform currently used by leading gambling websites in Italy. The system features a REST-based microservices architecture, leveraging ActiveMQ for messaging, an API Gateway for external access, Docker containers, and Kubernetes for orchestration.
-`
+Responsible for the analysis, design, and development of an online bingo platform, currently used by leading gambling websites in Italy. The system was built on a REST-based microservices architecture, utilising ActiveMQ for messaging, an API Gateway for external access, and Docker containers orchestrated with Kubernetes.
+
+One of my primary responsibilities was integrating with the third-party APIs of AAMS (Amministrazione Autonoma dei Monopoli di Stato), a government agency responsible for regulating gambling, while also defining fallback strategies.
+`,
+      skills: ['Java','Spring Boot','Spring Web MVC','JUnit','Maven','JavaScript','AngularJS','Angular','REST APIs','ActiveMQ','Apache Camel','Apache Tomcat','Hibernate','Oracle Database','MySQL','Mercurial','Git','GitHub','Docker','Kubernetes','Jenkins','GitLab','Artifactory','Sonarqube','Fortify Software Security Center']
     },
   ],
   educations: [
       {
-        title: 'Università Telematica Internazionale UNINETTUNO',
-        degree: 'Master\'s degree, Computer Engineering',
-        grade: '110/110 cum laude',
+        school: 'Università Telematica Internazionale UNINETTUNO',
         logo: 'logos/uninettuno.png',
+        link: 'https://www.linkedin.com/school/uninettuno/',
+        degree: 'Master\'s degree, Computer Engineering',
         period: '2020 – 2023',
-        skills: ['Java','Python','Hadoop','Apache Spark','Machine learning','Deep Learning','Keras','Problem Solving','Software Design Patterns','Software Architectural Design'],
+        grade: '110/110 cum laude',
         curriculum: 'Information management systems, Digital innovation, Computer Systems Architecture, Software design, Network services and security, Introduction to Big Data, Computer and Information Technology Law, System Programming, Methods and cloud tools for Big Data, Big Data Analytics and Visualization, Machine Learning, Big Data Platforms.',
         thesis: 'Automated resolution of text-based CAPTCHAs using Deep Learning techniques',
+        skills: ['Java','Python','Hadoop','Apache Spark','Machine learning','Deep Learning','Keras','Problem Solving','Software Design Patterns','Software Architectural Design']
       },
       {
-        title: 'University of Rome Tor Vergata',
-        degree: 'Bachelor\'s degree, Computer Science',
-        grade: '110/110 cum laude',
+        school: 'University of Rome Tor Vergata',
         logo: 'logos/tor-vergata.png',
+        link: 'https://www.linkedin.com/school/unitorvergata/',
+        degree: 'Bachelor\'s degree, Computer Science',
         period: '2013 – 2017',
-        skills: ['Java','C','Python','HTML','CSS','PHP','Javascript','Prolog','SPARQL','UML','Maven','Android Development','Git','GitHub','Database Management System (DBMS)','SQL','MySQL','NoSQL','MongoDB','Problem Solving','Algorithms','Data Structures','Software Development Life Cycle (SDLC)','Software Design Patterns'],
+        grade: '110/110 cum laude',
         curriculum: 'Mathematical Analysis, Computer Systems Architecture, Physics, Geometry and Algebra, Logic and Logical Networks, Discrete Mathematics, Computer Programming, Algorithms and Data Structures, Databases and Knowledge, Probability and statistics, Theoretical computer science, Programming languages and methodologies, Operations research, Operating systems and networks, Numerical calculus, Artificial intelligence, Web programming, Android Programming, Software Engineering.',
-        thesis: 'Efficient methods for the approximate computation of the neighborhood function of large graphs'
+        thesis: 'Efficient methods for the approximate computation of the neighborhood function of large graphs',
+        skills: ['Java','C','Python','HTML','CSS','PHP','Javascript','Prolog','SPARQL','UML','Maven','Android Development','Git','GitHub','Database Management System (DBMS)','SQL','MySQL','NoSQL','MongoDB','Problem Solving','Algorithms','Data Structures','Software Development Life Cycle (SDLC)','Software Design Patterns']
       }
   ],
   courses: [
