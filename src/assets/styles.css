@@ -102,6 +102,23 @@ h1, h2, h3, h4 {
     .grey {
         color: #7a7a7a;
     }
+
+    .bouncing-image:hover {
+        animation: bounce 0.5s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    .rotating-image {
+        transition: transform 5s ease-in-out;
+    }
+
+    .rotate {
+        transform: rotateY(1800deg);
+    }
 }
 
 .far,

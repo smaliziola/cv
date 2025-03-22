@@ -35,8 +35,13 @@
                 </div>
             </div>
             <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
-                <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
+                <img id="me" src="photo.jpg" class="rounded-circle img-fluid rotating-image" alt="Personal photo">
             </div>
+            <script>
+                document.getElementById("me").addEventListener("click", function() {
+                    this.classList.toggle("rotate");
+                });
+            </script>
             <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
                 <ul class="list-group list-group-flush">
                     {{#each facts}}
@@ -85,7 +90,7 @@
         {{#each positions}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
             <div class="col-md-1 d-none d-md-block">
-                <img src="{{ logo }}" class="img-fluid" alt="Logo">
+                <img src="{{ logo }}" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">{{ title }}</h3>
@@ -108,7 +113,7 @@
         {{#each educations}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
             <div class="col-md-1 d-none d-md-block">
-                <img src="{{ logo }}" class="img-fluid" alt="Logo">
+                <img src="{{ logo }}" class="img-fluid bouncing-image" alt="Logo">
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-normal">{{ title }}</h3>
