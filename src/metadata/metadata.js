@@ -17,9 +17,9 @@ module.exports = {
       period: 'Feb 2025 – Present',
       location: 'Rome, Latium, Italy • Remote',
       contents: `
-Development of new features and maintenance of the backend system of Talkwalker, acquired by Hootsuite.
+Development of new features and maintenance of the back-end system of Talkwalker, acquired by Hootsuite.
 `,
-      skills: ['Java','JavaScript','Gradle','JUnit','gRPC','Protocol Buffers','NoSQL','Cassandra','Apache Kafka','Jenkins','Elastic Stack (ELK)','Git','Gitlab','Sonarqube','Grafana','Graphite','Jira','Confluence','Slack']
+      skills: ['Java','JavaScript','Gradle','JUnit','gRPC','Protocol Buffers','Cassandra','Apache Kafka','Jenkins','Elastic Stack (ELK)','Git','Gitlab','Sonarqube','Grafana','Graphite','Jira','Confluence','Slack']
     },
     {
       company: 'Alpian',
@@ -57,7 +57,7 @@ Software Developer in the Cognitive Service Program (CSP), contributing to inter
 
 Key responsibilities:
 
-* Developing new backend software in a highly scalable microservices architecture.
+* Developing new back-end software in a highly scalable microservices architecture.
 * Maintaining existing software by implementing new features, fixing bugs, and ensuring compliance with company quality standards (code coverage, code smells, and vulnerability risks).
 * Reducing technical debt and adding automated tests (unit, component, and integration).
 * Performing manual release procedures and deploying components.
@@ -66,7 +66,7 @@ Key responsibilities:
 * Conducting code reviews for team members and managing technical tasks in the backlog.
 * Participating in Sprint refinement and planning alongside the team.
 `,
-      skills: ['Java','Quarkus','Spring Boot','JUnit','Mockito','REST-assured','Postman','Newman','JMeter','Maven','Go','Python','JavaScript','Electron','Vue.js','Node.js','REST APIs','RabbitMQ','Liquibase','Hibernate','PostgreSQL','NoSQL','SPARQL','GraphDB','Docker','Kubernetes','Helm Charts','Argo CD','Ansible','Elastic Stack (ELK)','Microsoft Azure','OpenStack','Git','GitHub','Bitbucket','Jenkins','Sonarqube','Grafana','Prometheus','Jaeger','Keycloak','Jira','Confluence','Slack']
+      skills: ['Java','Quarkus','Spring Boot','JUnit','Mockito','REST-assured','Postman','Newman','JMeter','Maven','Go','Python','JavaScript','Electron','Vue.js','Node.js','REST APIs','RabbitMQ','Liquibase','Hibernate','PostgreSQL','GraphDB','SPARQL','Docker','Kubernetes','Helm Charts','Argo CD','Ansible','Elastic Stack (ELK)','Microsoft Azure','OpenStack','Git','GitHub','Bitbucket','Jenkins','Sonarqube','Grafana','Prometheus','Jaeger','Keycloak','Jira','Confluence','Slack']
     },
     {
       company: 'Altran',
@@ -80,13 +80,13 @@ IT Consultant at Altran (now known as Capgemini Engineering) for Hotels.com (Exp
 
 Software Development Engineer supporting QA activities within a multicultural and international Agile team. My primary responsibilities included:
 
-* Developing new features and maintaining the Hotels.com backend system built on a highly scalable microservices architecture.
+* Developing new features and maintaining the Hotels.com back-end system built on a highly scalable microservices architecture.
 * Defining test strategies and implementing automated tests (unit, component, integration, and acceptance).
 * Managing and eliminating legacy code while reducing technical debt through dedicated tech health days.
 * Monitoring deployments managed by the CI/CD pipeline.
 * Participating in code review processes, team planning, and backlog management.
 `,
-      skills: ['Java','Kotlin','Spring Boot','JUnit','TestNG','Mockito','EasyMock','Cucumber','Puppeteer','Maven','Python','JavaScript','Node.js','GraphQL','REST APIs','SOAP','Apache Kafka','NoSQL','Redis','Cassandra','DynamoDB','Git','GitHub','Bitbucket','Docker','Kubernetes','Amazon Web Services','Confluence','Jira','Grafana','Graphite','Splunk','Jenkins','Bamboo','Spinnaker','Artifactory','Fortify Software Security Center','Slack']
+      skills: ['Java','Kotlin','Spring Boot','JUnit','TestNG','Mockito','EasyMock','Cucumber','Puppeteer','Maven','Python','JavaScript','Node.js','GraphQL','REST APIs','SOAP','Apache Kafka','Redis','Cassandra','DynamoDB','Git','GitHub','Bitbucket','Docker','Kubernetes','Amazon Web Services','Confluence','Jira','Grafana','Graphite','Splunk','Jenkins','Bamboo','Spinnaker','Artifactory','Fortify Software Security Center','Slack']
     },
     {
       company: 'Alten',
