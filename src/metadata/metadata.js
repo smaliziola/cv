@@ -115,7 +115,7 @@ One of my primary responsibilities was integrating with the third-party APIs of 
         grade: '110/110 cum laude',
         curriculum: 'Information management systems, Digital innovation, Computer Systems Architecture, Software design, Network services and security, Introduction to Big Data, Computer and Information Technology Law, System Programming, Methods and cloud tools for Big Data, Big Data Analytics and Visualization, Machine Learning, Big Data Platforms.',
         thesis: 'Automated resolution of text-based CAPTCHAs using Deep Learning techniques',
-        skills: ['Java','Python','Hadoop','Apache Spark','Machine learning','Deep Learning','Keras','Problem Solving','Software Design Patterns','Software Architectural Design']
+        skills: ['Java','Python','MapReduce','Hadoop','Apache Spark','Machine learning','Deep Learning','Keras','Problem Solving','Software Design Patterns','Software Architectural Design']
       },
       {
         school: 'University of Rome Tor Vergata',
@@ -126,7 +126,7 @@ One of my primary responsibilities was integrating with the third-party APIs of 
         grade: '110/110 cum laude',
         curriculum: 'Mathematical Analysis, Computer Systems Architecture, Physics, Geometry and Algebra, Logic and Logical Networks, Discrete Mathematics, Computer Programming, Algorithms and Data Structures, Databases and Knowledge, Probability and statistics, Theoretical computer science, Programming languages and methodologies, Operations research, Operating systems and networks, Numerical calculus, Artificial intelligence, Web programming, Android Programming, Software Engineering.',
         thesis: 'Efficient methods for the approximate computation of the neighborhood function of large graphs',
-        skills: ['Java','C','Python','HTML','CSS','PHP','Javascript','Prolog','SPARQL','UML','Maven','Android Development','Git','GitHub','Database Management System (DBMS)','SQL','MySQL','NoSQL','MongoDB','Problem Solving','Algorithms','Data Structures','Software Development Life Cycle (SDLC)','Software Design Patterns']
+        skills: ['Java','C','Python','HTML','CSS','PHP','Javascript','Prolog','SPARQL','UML','Maven','Android Development','Git','GitHub','Database Management System','SQL','MySQL','NoSQL','MongoDB','Problem Solving','Algorithms','Data Structures','Software Development Life Cycle','Software Design Patterns']
       }
   ],
   courses: [
