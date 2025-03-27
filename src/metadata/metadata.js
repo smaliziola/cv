@@ -29,17 +29,17 @@ Development of new features and maintenance of the back-end system of Talkwalker
       period: 'Sep 2022 – Jan 2025',
       location: 'Rome, Latium, Italy • Remote',
       contents: `
-As a Software Engineer, I was responsible for participating in the entire systems lifecycle, from the initial technical analysis to production release. This included designing the architecture of new digital solutions in collaboration with software architects, developing software from scratch, and maintaining or refactoring existing code to ensure consistently high-quality standards.
+As a Software Engineer, I was responsible for participating in the entire systems lifecycle, from the initial technical analysis to production release. This included designing the architecture of new digital solutions, collaborating with Product Owners to align technical solutions with business needs, developing software from scratch, and maintaining or refactoring existing code to ensure consistently high-quality standards.
 
 The teams were international, operating remotely across the globe, and followed Agile Scrum methodologies. Beyond my core responsibilities, I also led initiatives on features involving multiple teams, ensuring alignment and convergence toward common goals.
 
 Some key contributions:
 
 * Managed the onboarding process for new customers via mobile apps (Android/iOS).
-* Designed, developed, and maintained a CRM system to help personal bankers manage customer accounts, communications, and support activities.
-* Implemented appointment reservation feature for both customers (via the mobile app) and personal bankers (via the CRM system).
+* Developed and maintained a CRM system to help personal bankers manage customer accounts, communications, and support activities.
+* Designed and implemented appointment reservation feature for both customers (via mobile app) and personal bankers (via CRM system).
 * Integrated SMS and email notification system for customers and personal bankers.
-* Developed and maintained a distributed system that processes sensitive customer data on a scheduled basis.
+* Created a distributed system that processes sensitive customer data on a scheduled basis.
 * Proposed and implemented efficient solutions to reduce technical debt and improve code maintainability.
 * Consistently met tight deadlines while ensuring high software quality and adherence to best practices.
 `,
@@ -72,13 +72,13 @@ Key responsibilities:
       company: 'Altran',
       logo: 'logos/altran.jpeg',
       link: 'https://www.linkedin.com/company/altran/',
-      role: 'Software Engineer',
+      role: 'Software Development Engineer',
       period: 'Mar 2019 – Aug 2021',
       location: 'Rome, Latium, Italy • Hybrid',
       contents: `
-IT Consultant at Altran (now known as Capgemini Engineering) for Hotels.com (Expedia Group).
+IT Consultant at Altran (now known as Capgemini Engineering) for Hotels.com (Expedia Group), working as a Software Development Engineer within a multicultural, international Agile team, where I also contributed to QA activities.
 
-Software Development Engineer supporting QA activities within a multicultural and international Agile team. My primary responsibilities included:
+My primary responsibilities included:
 
 * Developing new features and maintaining the Hotels.com back-end system built on a highly scalable microservices architecture.
 * Defining test strategies and implementing automated tests (unit, component, integration, and acceptance).
@@ -96,18 +96,18 @@ Software Development Engineer supporting QA activities within a multicultural an
       period: 'Feb 2017 – Mar 2019',
       location: 'Rome, Latium, Italy • On-site',
       contents: `
-IT Consultant for GVC Holdings (now known as Entain).
+IT Consultant for GVC Holdings (now known as Entain), working as a Software Developer.
 
-Responsible for the analysis, design, and development of an online bingo platform, currently used by leading gambling websites in Italy. The system was built on a REST-based microservices architecture, utilising ActiveMQ for messaging, an API Gateway for external access, and Docker containers orchestrated with Kubernetes.
+I was responsible for the analysis, design, and development of an online bingo platform, used by leading gambling websites in Italy. The system was built on a REST-based microservices architecture, leveraging ActiveMQ for messaging, an API Gateway for external access, and Docker containers orchestrated with Kubernetes.
 
-One of my primary responsibilities was integrating with the third-party APIs of AAMS (Amministrazione Autonoma dei Monopoli di Stato), a government agency responsible for regulating gambling, while also defining fallback strategies.
+One of my key achievements was integrating with third-party regulatory APIs in the gambling industry while implementing fallback strategies.
 `,
       skills: ['Java','Spring Boot','Spring Web MVC','JUnit','Maven','JavaScript','AngularJS','Angular','REST APIs','ActiveMQ','Apache Camel','Apache Tomcat','Hibernate','Oracle Database','MySQL','Mercurial','Git','GitHub','Docker','Kubernetes','Jenkins','GitLab','Artifactory','Sonarqube','Fortify Software Security Center']
     },
   ],
   educations: [
       {
-        school: 'Università Telematica Internazionale UNINETTUNO',
+        school: 'International Telematic University UniNettuno',
         logo: 'logos/uninettuno.jpeg',
         link: 'https://www.linkedin.com/school/uninettuno/',
         degree: 'Master\'s degree, Computer Engineering',
