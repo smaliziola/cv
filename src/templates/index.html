@@ -40,8 +40,16 @@
                     </p>
                 </div>
             </div>
-            <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
-                <img id="me" src="photo.jpeg" class="rounded-circle img-fluid rotating-image" alt="Personal photo">
+            <div id="flipCard"
+                 class="flip-container col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="photo1.jpeg" class="rounded-circle img-fluid rotating-image" alt="Personal photo 1">
+                    </div>
+                    <div class="back">
+                        <img src="photo2.jpeg" class="rounded-circle img-fluid rotating-image" alt="Personal photo 2">
+                    </div>
+                </div>
             </div>
             <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
                 <ul class="list-group list-group-flush">
@@ -55,8 +63,9 @@
             </div>
         </div>
         <script>
-            document.getElementById("me").addEventListener("click", function() {
-                this.classList.toggle("rotate");
+            const flipCard = document.getElementById('flipCard');
+            flipCard.addEventListener('click', () => {
+              flipCard.classList.toggle('flipped');
             });
 
             const toggleSwitch = document.getElementById('theme-toggle');
