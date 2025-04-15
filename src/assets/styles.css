@@ -148,7 +148,7 @@ h1, h2, h3, h4 {
     .dark-mode {
       --bg-color: #17202a;
       --text-color: white;
-      --heading-color: white; /* Example: Yellow headings in dark mode */
+      --heading-color: white;
     }
 
     body, .list-group-item {
