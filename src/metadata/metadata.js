@@ -6,7 +6,7 @@ module.exports = {
     'LinkedIn': `<a href="https://www.linkedin.com/in/simone-maliziola/"><i class="fa-brands fa-linkedin fact-icon"></i>simone-maliziola</a>`,
     'GitHub': `<a href="https://github.com/Sim0ne42"><i class="fa-brands fa-github fact-icon"></i>Sim0ne42</a>`,
     'LeetCode': `<a href="https://leetcode.com/u/smaliziola/"><i class="fa fa-code fact-icon"></i>smaliziola</a>`,
-    'Email': `<a href="mailto:simone.maliziola@protonmail.com"><i class="fa fa-envelope fact-icon"></i>simone.maliziola@protonmail.com</a>`
+    'Email': `<a href="mailto:s.maliziola@proton.me"><i class="fa fa-envelope fact-icon"></i>s.maliziola@proton.me</a>`
   },
   skills: ['Back-End Web Development','Object-Oriented Programming','Functional Programming','Test-Driven Development','Cloud-Native Applications','Microservices','Software Design Patterns','Code Refactoring','Software Development Life Cycle','Software Architectural Design','Agile Methodologies','Problem Solving'],
   positions: [
