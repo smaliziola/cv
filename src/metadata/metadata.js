@@ -132,6 +132,10 @@ One of my key achievements was integrating with third-party regulatory APIs in t
   ],
   courses: [
     {
+      name: 'Local LLMs via Ollama & LM Studio – The Practical Guide',
+      url: 'http://ude.my/UC-375d9cc1-eaed-4f88-973c-993382cc3a60/'
+    },
+    {
       name: 'Apache Kafka Series – Confluent Schema Registry & REST Proxy',
       url: 'http://ude.my/UC-1ef6e265-9324-415b-b305-2d3f161d3fa3/'
     },
