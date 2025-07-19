@@ -132,6 +132,10 @@ One of my key achievements was integrating with third-party regulatory APIs in t
   ],
   courses: [
     {
+      name: 'The Java Design Patterns Course',
+      url: 'http://ude.my/UC-68f31e18-15ab-4a37-9814-7cf8dc393f15/'
+    },
+    {
       name: 'Local LLMs via Ollama & LM Studio – The Practical Guide',
       url: 'http://ude.my/UC-375d9cc1-eaed-4f88-973c-993382cc3a60/'
     },
