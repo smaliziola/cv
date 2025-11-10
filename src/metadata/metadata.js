@@ -18,9 +18,22 @@ module.exports = {
       period: 'Feb 2025 – Present',
       location: 'Rome, Latium, Italy • Remote',
       contents: `
-Development of new features and maintenance of the back-end system of Talkwalker, acquired by Hootsuite.
+Software Developer contributing to Talkwalker's consumer intelligence platform, working in an Agile Kanban team to integrate, enrich, and process large-scale social media data streams. Focused on real-time data ingestion, analytics, and delivering actionable insights to support data-driven decision-making.
+
+Key responsibilities:
+
+* End-to-end development of social media platform integrations in a high-throughput microservices architecture, processing millions of posts daily.
+* Design and implementation of ETL pipelines to normalize heterogeneous social media data into unified, searchable data models with strong validation and sanitization layers.
+* Real-time stream processing, including error handling, retries, and deduplication strategies.
+* API client development with rate limiting, pagination, circuit breakers, graceful degradation, and monitoring.
+* Enhancement and maintenance of existing social data connectors, improving data quality, system reliability, and feature coverage.
+* Observability and monitoring improvements using contextual logging, distributed tracing, custom metrics, dashboards, and real-time alerting.
+* Test-first development with extensive unit, integration, and component test coverage.
+* Refactoring and modernization of legacy components to reduce technical debt and improve architectural coherence.
+* Active involvement in code reviews and continuous delivery pipelines.
+* Creation and maintenance of internal documentation, tools, and scripts to support team productivity and onboarding.
 `,
-      skills: ['Java','JavaScript','Gradle','JUnit','gRPC','Protocol Buffers','Cassandra','Apache Kafka','Jenkins','Elastic Stack (ELK)','Git','Gitlab','Sonarqube','Grafana','Graphite','Jira','Confluence','Slack']
+      skills: ['Java','Spring Boot','Gradle','JUnit','Mockito','JavaScript','Node.js','gRPC','Protocol Buffers','REST APIs','Git','Gitlab','Apache Cassandra','Elastic Stack (ELK)','Apache Kafka','Jenkins','Docker','Kubernetes','Sonarqube','Grafana','Graphite','Jira','Confluence','Slack']
     },
     {
       company: 'Alpian',
@@ -87,7 +100,7 @@ My primary responsibilities included:
 * Monitoring deployments managed by the CI/CD pipeline.
 * Participating in code review processes, team planning, and backlog management.
 `,
-      skills: ['Java','Kotlin','Spring Boot','JUnit','TestNG','Mockito','EasyMock','Cucumber','Puppeteer','Maven','Python','JavaScript','Node.js','GraphQL','REST APIs','SOAP','Apache Kafka','Redis','Cassandra','DynamoDB','Git','GitHub','Bitbucket','Docker','Kubernetes','Amazon Web Services','Confluence','Jira','Grafana','Graphite','Splunk','Jenkins','Bamboo','Spinnaker','Artifactory','Fortify Software Security Center','Slack']
+      skills: ['Java','Kotlin','Spring Boot','JUnit','TestNG','Mockito','EasyMock','Cucumber','Puppeteer','Maven','Python','JavaScript','Node.js','GraphQL','REST APIs','SOAP','Apache Kafka','Redis','Apache Cassandra','DynamoDB','Git','GitHub','Bitbucket','Docker','Kubernetes','Amazon Web Services','Confluence','Jira','Grafana','Graphite','Splunk','Jenkins','Bamboo','Spinnaker','Artifactory','Fortify Software Security Center','Slack']
     },
     {
       company: 'Alten',
