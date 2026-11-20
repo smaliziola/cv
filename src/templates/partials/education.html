@@ -1,0 +1,9 @@
+{{#> section heading="🎓 Education"}}
+    {{#each educations}}
+    {{#> timeline-item title=school subtitle=degree}}
+        <p><b>Grade:</b> {{ grade }}</p>
+        <p><b>Curriculum:</b> {{ curriculum }}</p>
+        <p><b>Thesis:</b> {{ thesis }}</p>
+    {{/timeline-item}}
+    {{/each}}
+{{/section}}

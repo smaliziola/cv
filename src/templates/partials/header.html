@@ -1,0 +1,48 @@
+<div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+    <div class="row">
+        <div class="col-print-6 col-12 col-md-6 col-lg-4 d-flex justify-content-between flex-column">
+            <div>
+                <h1 class="mb-1">{{ name }}</h1>
+                <div class="fs-4 grey">{{ title }}</div>
+            </div>
+            <div>
+                <p>
+                    <time datetime="{{ updatedIso }}" class="small">Last update: {{ updated }}</time>
+                </p>
+                <p>
+                    <span class="screen small"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
+                    <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
+                                                                                    class="text-nowrap"><i
+                        class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
+                </p>
+                <p class="switch">
+                    <label>
+                        <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                        <span class="slider"></span>
+                    </label>
+                </p>
+            </div>
+        </div>
+        <div id="flipCard"
+             class="flip-container col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
+            <div class="flipper">
+                <div class="front">
+                    <img src="photo1.jpeg" class="rounded-circle img-fluid rotating-image" alt="{{ name }}">
+                </div>
+                <div class="back">
+                    <img src="photo2.jpeg" class="rounded-circle img-fluid rotating-image" alt="{{ name }} (alternative photo)">
+                </div>
+            </div>
+        </div>
+        <div class="col-print-6 col-12 col-md-12 offset-lg-1 col-lg-4">
+            <ul class="list-group list-group-flush">
+                {{#each facts}}
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <span class="text-nowrap small">{{ label }}</span>
+                    <span class="text-nowrap small"><a href="{{ url }}"><i class="{{ icon }} fact-icon"></i>{{ text }}</a></span>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>

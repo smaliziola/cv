@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Java Design Patterns Course",
+    "url": "http://ude.my/UC-68f31e18-15ab-4a37-9814-7cf8dc393f15/"
+  },
+  {
+    "name": "Local LLMs via Ollama & LM Studio – The Practical Guide",
+    "url": "http://ude.my/UC-375d9cc1-eaed-4f88-973c-993382cc3a60/"
+  },
+  {
+    "name": "Apache Kafka Series – Confluent Schema Registry & REST Proxy",
+    "url": "http://ude.my/UC-1ef6e265-9324-415b-b305-2d3f161d3fa3/"
+  },
+  {
+    "name": "Apache Kafka Series – Kafka Streams for Data Processing",
+    "url": "http://ude.my/UC-73319608-4bb5-4e55-87f8-1ff6a73981e9/"
+  },
+  {
+    "name": "Apache Kafka Series – Kafka Connect Hands-on Learning",
+    "url": "http://ude.my/UC-1d6ff41d-2fc8-4892-b410-5a67fee66255/"
+  },
+  {
+    "name": "Apache Kafka Series – Learn Apache Kafka v3",
+    "url": "http://ude.my/UC-8bf1c8cc-b435-461f-bdcd-b1da96e27de9/"
+  },
+  {
+    "name": "MongoDB – The Complete Developer's Guide",
+    "url": "http://ude.my/UC-1a48a294-265f-4fbb-925a-ff9073f08c8b/"
+  },
+  {
+    "name": "Quarkus Backend development with Java and GraalVM",
+    "url": "http://ude.my/UC-887eaa80-756a-488e-a76b-429f7b072aad/"
+  },
+  {
+    "name": "Java Certificate",
+    "url": "https://www.hackerrank.com/certificates/a77e8f204412/"
+  },
+  {
+    "name": "Problem Solving Certificate",
+    "url": "https://www.hackerrank.com/certificates/4cd3357a4d7a/"
+  },
+  {
+    "name": "Kotlin for Java Developers",
+    "url": "https://www.coursera.org/learn/kotlin-for-java-developers/"
+  },
+  {
+    "name": "Apache Spark for Java Developers",
+    "url": "http://ude.my/UC-T8EV2KEO/"
+  },
+  {
+    "name": "Angular – The Complete Guide",
+    "url": "http://ude.my/UC-OYKN044O/"
+  },
+  {
+    "name": "Machine Learning",
+    "url": "https://www.coursera.org/learn/machine-learning/"
+  },
+  {
+    "name": "Functional Programming Principles in Scala",
+    "url": "https://www.coursera.org/learn/scala-functional-programming/"
+  }
+]

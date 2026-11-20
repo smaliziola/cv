@@ -1,9 +1,25 @@
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('vendor/fonts/montserrat-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('vendor/fonts/montserrat-latin-500-normal.woff2') format('woff2');
+}
+
 :root {
     --bs-font-sans-serif: Montserrat, sans-serif;
     --bs-body-font-weight: 400;
     --bs-body-color: #858585;
     --bs-body-color-rgb: 133, 133, 133;
-    --light-color: #D9D9D9;
+    --light-color: #d9d9d9;
     --dark-color: #7a7a7a;
     --bs-body-font-size: 1.1rem;
 }
@@ -13,7 +29,10 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #000000;
 }
 
@@ -38,28 +57,10 @@ h1, h2, h3, h4 {
         display: none;
     }
 
-    .card {
-        border: none;
-    }
-
-    .card-body {
-        padding: 0;
-    }
-
     .badge {
         border: 0.07rem solid #868e96;
         color: inherit;
         background-color: inherit;
-    }
-
-    .print-url {
-        color: #deeef9;
-        text-decoration: none;
-        font-size: smaller;
-    }
-
-    .text-print-right {
-        text-align: right;
     }
 
     .fs-5,
@@ -73,7 +74,7 @@ h1, h2, h3, h4 {
     }
 
     .grey {
-        color: #D9D9D9;
+        color: #d9d9d9;
     }
 
     .switch {
@@ -95,10 +96,6 @@ h1, h2, h3, h4 {
         margin-bottom: 1rem;
     }
 
-    dt {
-        font-weight: normal;
-    }
-
     strong {
         font-weight: 500;
     }
@@ -112,100 +109,112 @@ h1, h2, h3, h4 {
     }
 
     @keyframes bounce {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
     }
 
     .flip-container {
-      cursor: pointer;
+        cursor: pointer;
     }
 
     .flipper {
-      position: relative;
-      transform-style: preserve-3d;
-      transition: transform 0.6s;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.6s;
     }
 
     .flip-container.flipped .flipper {
-      transform: rotateY(180deg);
+        transform: rotateY(180deg);
     }
 
-    .front, .back {
-      position: absolute;
-      backface-visibility: hidden;
+    .front,
+    .back {
+        position: absolute;
+        backface-visibility: hidden;
     }
 
     .back {
-      transform: rotateY(180deg);
+        transform: rotateY(180deg);
     }
 
     :root {
-      --bg-color: white;
-      --text-color: black;
-      --heading-color: #333;
+        --bg-color: white;
+        --text-color: black;
+        --heading-color: #333;
     }
 
     .dark-mode {
-      --bg-color: #17202a;
-      --text-color: white;
-      --heading-color: white;
+        --bg-color: #17202a;
+        --text-color: white;
+        --heading-color: white;
     }
 
-    body, .list-group-item {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      transition: background-color 0.5s, color 0.5s;
+    body,
+    .list-group-item {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition:
+            background-color 0.5s,
+            color 0.5s;
     }
 
-    h1, h2, h3, h4 {
-      color: var(--heading-color);
-      transition: color 0.5s;
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: var(--heading-color);
+        transition: color 0.5s;
     }
 
     .switch {
-      position: relative;
-      display: inline-block;
-      width: 50px;
-      height: 25px;
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 25px;
     }
 
     .switch input {
-      opacity: 0;
-      width: 0;
-      height: 0;
+        opacity: 0;
+        width: 0;
+        height: 0;
     }
 
     .slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #ccc;
-      transition: 0.5s;
-      border-radius: 25px;
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: 0.5s;
+        border-radius: 25px;
     }
 
     .slider:before {
-      content: "";
-      position: absolute;
-      height: 18px;
-      width: 18px;
-      left: 4px;
-      bottom: 3.5px;
-      background-color: white;
-      transition: 0.4s;
-      border-radius: 50%;
+        content: '';
+        position: absolute;
+        height: 18px;
+        width: 18px;
+        left: 4px;
+        bottom: 3.5px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
     }
 
     input:checked + .slider {
-      background-color: #222;
+        background-color: #222;
     }
 
     input:checked + .slider:before {
-      transform: translateX(24px);
-      background-color: white;
+        transform: translateX(24px);
+        background-color: white;
     }
 }
 
@@ -224,11 +233,6 @@ h1, h2, h3, h4 {
 }
 
 @media print {
-    .col-print-1 {
-        flex: 0 0 8.333333%;
-        max-width: 8.333333%;
-    }
-
     .col-print-6 {
         flex: 0 0 50%;
         max-width: 50%;

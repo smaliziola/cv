@@ -1,0 +1,7 @@
+{{#> section heading="👨🏻‍💻 Professional Experience"}}
+    {{#each positions}}
+    {{#> timeline-item title=company subtitle=role}}
+        <div>{{{markdown contents}}}</div>
+    {{/timeline-item}}
+    {{/each}}
+{{/section}}

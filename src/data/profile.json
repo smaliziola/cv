@@ -1,0 +1,63 @@
+{
+  "name": "Simone Maliziola",
+  "title": "Software Engineer",
+  "about": [
+    "Graduated cum laude with a bachelor's degree in Computer Science and a master's degree in Computer Engineering.",
+    "Experienced software engineer primarily focused on back-end web development using Java and Kotlin, with deep expertise in frameworks such as Spring and Quarkus.",
+    "Passionate about all aspects of IT, with a particular interest in software quality.",
+    "Always eager to learn, acquire new skills and continuously grow professionally.",
+    "Proficient in a wide range of technologies, with strong problem-solving abilities.",
+    "Excellent communication, interpersonal, and organisational skills.",
+    "Extensive experience working in multicultural teams with Agile methodologies, performing QA activities, developing and maintaining microservices and cloud-native web applications.",
+    "I have worked in consulting firms, product-based companies, and research & development (R&D) environments.",
+    "My ideal workplace is comfortable, inspiring, transparent, innovative, and that values employee happiness.",
+    "My goal is to ensure and improve product quality by deepening my technical expertise, staying updated with the latest advancements, and sharing ideas, opinions, and knowledge.",
+    "I thrive in environments surrounded by competent, empathetic, and collaborative people."
+  ],
+  "facts": [
+    {
+      "label": "Residence",
+      "url": "https://www.google.com/maps/place/Province+of+Frosinone/@41.627771,13.1801257,10z/data=!3m1!4b1!4m6!3m5!1s0x132552e4989f37d1:0x3094f9ab2388120!8m2!3d41.6576528!4d13.6362715!16zL20vMDUyZHQ1?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D",
+      "icon": "fa fa-home",
+      "text": "Frosinone, Italy"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/simone-maliziola/",
+      "icon": "fa-brands fa-linkedin",
+      "text": "simone-maliziola"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Sim0ne42",
+      "icon": "fa-brands fa-github",
+      "text": "Sim0ne42"
+    },
+    {
+      "label": "LeetCode",
+      "url": "https://leetcode.com/u/smaliziola/",
+      "icon": "fa fa-code",
+      "text": "smaliziola"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:s.maliziola@proton.me",
+      "icon": "fa fa-envelope",
+      "text": "s.maliziola@proton.me"
+    }
+  ],
+  "skills": [
+    "Back-End Web Development",
+    "Object-Oriented Programming",
+    "Functional Programming",
+    "Test-Driven Development",
+    "Cloud-Native Applications",
+    "Microservices",
+    "Software Design Patterns",
+    "Code Refactoring",
+    "Software Development Life Cycle",
+    "Software Architectural Design",
+    "Agile Methodologies",
+    "Problem Solving"
+  ]
+}
