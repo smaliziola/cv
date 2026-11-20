@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ name }}</title>
+    <title>{{ name }} – {{ title }}</title>
+    <meta name="description" content="Curriculum Vitae of {{ name }}, {{ title }}.">
+    <meta name="author" content="{{ name }}">
+    <link rel="canonical" href="{{ baseUrl }}/">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ name }} – {{ title }}">
+    <meta property="og:description" content="Curriculum Vitae of {{ name }}, {{ title }}.">
+    <meta property="og:url" content="{{ baseUrl }}/">
+    <meta property="og:image" content="{{ baseUrl }}/photo1.jpeg">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +32,7 @@
                 </div>
                 <div>
                     <p>
-                        <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
+                        <time datetime="{{ updatedIso }}" class="small">Last update: {{ updated }}</time>
                     </p>
                     <p>
                         <span class="screen small"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
@@ -34,7 +42,7 @@
                     </p>
                     <p class="switch">
                         <label>
-                            <input type="checkbox" id="theme-toggle">
+                            <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
                             <span class="slider"></span>
                         </label>
                     </p>
@@ -44,10 +52,10 @@
                  class="flip-container col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
                 <div class="flipper">
                     <div class="front">
-                        <img src="photo1.jpeg" class="rounded-circle img-fluid rotating-image" alt="Personal photo 1">
+                        <img src="photo1.jpeg" class="rounded-circle img-fluid rotating-image" alt="{{ name }}">
                     </div>
                     <div class="back">
-                        <img src="photo2.jpeg" class="rounded-circle img-fluid rotating-image" alt="Personal photo 2">
+                        <img src="photo2.jpeg" class="rounded-circle img-fluid rotating-image" alt="{{ name }} (alternative photo)">
                     </div>
                 </div>
             </div>
@@ -103,7 +111,7 @@
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">🛠️ Skills</h2>
-        <div class="row align-items-centerx">
+        <div class="row align-items-center">
             {{#each skills}}
             <div class="col-print-4 col-sm-12 col-md-6 col-lg-4">
                 <small>• {{ this }}</small>
@@ -117,7 +125,7 @@
         {{#each positions}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
             <div class="col-md-1 d-none d-md-block">
-                <a href="{{ link }}"><img src="{{ logo }}" class="img-fluid bouncing-image" alt="Logo"></a>
+                <a href="{{ link }}"><img src="{{ logo }}" class="img-fluid bouncing-image" alt="{{ company }} logo"></a>
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-bold">{{ company }}</h3>
@@ -140,7 +148,7 @@
         {{#each educations}}
         <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
             <div class="col-md-1 d-none d-md-block">
-                <a href="{{ link }}"><img src="{{ logo }}" class="img-fluid bouncing-image" alt="Logo"></a>
+                <a href="{{ link }}"><img src="{{ logo }}" class="img-fluid bouncing-image" alt="{{ school }} logo"></a>
             </div>
             <div class="col-md-10">
                 <h3 class="fs-4 fw-bold">{{ school }}</h3>

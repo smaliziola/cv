@@ -218,7 +218,7 @@ h1, h2, h3, h4 {
 }
 
 .badge {
-    background-color: white;
+    background-color: var(--bg-color, white);
     font-weight: normal;
     letter-spacing: 0.05rem;
 }
